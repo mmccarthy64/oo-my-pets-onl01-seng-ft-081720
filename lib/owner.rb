@@ -16,7 +16,7 @@ class Owner
   end
   
   def cats
-    Cats.all
+    self.collect {|cats| cats}
   end
   
   def dogs
