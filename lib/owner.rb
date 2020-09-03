@@ -33,7 +33,7 @@ class Owner
   end
   
   def walk_dogs
-    
+    self.each.select {|dog| dog.mood = "happy"}
   end
   
   def feed_cats
