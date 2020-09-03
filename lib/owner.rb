@@ -37,7 +37,7 @@ class Owner
   end
   
   def feed_cats
-    catss.select {|cat| cat.mood = "happy"}
+    cats.select {|cat| cat.mood = "happy"}
   end
   
   def sell_pets
