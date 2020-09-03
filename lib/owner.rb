@@ -35,7 +35,7 @@ class Owner
     
   end
   
-  def feed_cat
+  def feed_cats
     
   end
   
