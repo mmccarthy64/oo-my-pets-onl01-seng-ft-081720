@@ -40,9 +40,7 @@ class Owner
     cats.select {|cat| cat.mood = "happy"}
   end
   
-  def sell_pets
-    mood 
-  end
+
   
   def list_pets
     "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
